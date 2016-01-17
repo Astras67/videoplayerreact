@@ -15,6 +15,7 @@ export default class SearchBar extends Component {
 		this.setState({ term });
 		this.props.onSearchTermChange(term);
 	}
+	
 	render() {
 		return (
 			<div className="search-bar">
